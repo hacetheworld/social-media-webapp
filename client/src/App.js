@@ -3,6 +3,8 @@ import "./App.css";
 import Header from "./components/header/header.component";
 
 import HomePage from "./pages/home/HomePage";
+import Footer from "./components/footer/footer";
+
 import SignIn from "./components/signin/signin.component";
 import SignUp from "./components/signup/signup.component";
 import { Route, Switch } from "react-router-dom";
@@ -15,6 +17,7 @@ function App() {
         <Route exact component={SignUp} path="/signup" />
         <Route component={HomePage} path="/" />
       </Switch>
+      <Footer />
     </div>
   );
 }

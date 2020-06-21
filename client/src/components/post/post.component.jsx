@@ -1,8 +1,6 @@
 import React from "react";
 import "./post.css";
 import Badge from "@material-ui/core/Badge";
-import imageUrl from "../../assets/ajay.jpg";
-
 import { Link } from "react-router-dom";
 import { Favorite, Comment } from "@material-ui/icons";
 export default function Post({ postData }) {
